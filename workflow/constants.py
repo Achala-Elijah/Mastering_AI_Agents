@@ -1,0 +1,6 @@
+PLANNER_NODE = "plannerNode"
+PLANNER_TOOLS_NODE = "plannerToolsNode"
+EXPLAINER_NODE = "explainerNode"
+EXPLAINER_TOOLS_NODE = "explainerToolsNode"
+QUIZ_GENERATOR_NODE = "quizGeneratorNode"
+SUMMARIZER_NODE = "summarizerNode"
