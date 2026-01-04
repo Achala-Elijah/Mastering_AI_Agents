@@ -35,4 +35,4 @@ def agent(input, conversationMessages):
     
     result = graph.invoke(initialState, config={"configurable": {"max_iterations": 10}})
     
-    return result, result["output"]
+    return result["conversationMessages"], result["output"]
