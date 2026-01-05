@@ -9,7 +9,7 @@ from workflow.tools import *
 
 
 planner = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
-llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GROQ_API_KEY"))
+llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=os.getenv("GAPI"))
 
 
 plannerLlm = planner.with_structured_output(ManagerOuputFormat)
@@ -103,7 +103,6 @@ def explainerNode(state: State):
     
     
 def explainerToolsNode(state: State):
-    print("here")
     explainerLastMessage = state["explainerMessages"][-1]
     
     tools = explainerTools
