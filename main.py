@@ -41,23 +41,3 @@ if __name__ == "__main__":
 
         print("="*90)
         print(conversation)
-
-
-
-
-# if __name__ == "__main__": 
-#     conversation = []
-#     userInput = ""
-#     output = ""
-
-#     while True:
-#         cprint("INPUT")
-#         userInput = input()
-#         print()
-#         conversation, output = agent(userInput, conversation)   
-#         cprint("OUTPUT")
-#         print(output)
-#         print()
-
-#         print("="*90)
-#         print(conversation)
