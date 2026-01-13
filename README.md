@@ -31,13 +31,20 @@ Architecture and workflow diagrams:
 
 ## Project Structure
 project-root/
+
 │── workflow/
 │   ├── downloads/        # Downloaded audio and video files
+
 │   ├── agents/           # Agent implementations
+
 │   └── tools/            # Download, Transcribe, and Search tools
+
 │── src/                  # Core application logic
+
 │── requirements.txt      # Python dependencies
+
 │── main.py               # Application entry point
+
 │── README.md             # Project documentation
 
 ---
@@ -53,6 +60,7 @@ project-root/
 ## Installation
 ### Clone the repository:
 git clone https://github.com/Achala-Elijah/Mastering_AI_Agents.git
+
 cd Mastering_AI_Agents
 
 ### Create a virtual environment (recommended):
