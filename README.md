@@ -51,20 +51,21 @@ project-root/
 ---
 
 ## Installation
-Clone the repository:
+### Clone the repository:
 git clone https://github.com/your-username/multi-agent-multimedia-ai.git
 cd multi-agent-multimedia-ai
 
-Create a virtual environment (recommended):
+### Create a virtual environment (recommended):
 python -m venv venv
 
-Activate the virtual environment:
+### Activate the virtual environment:
 Windows:
 venv\Scripts\activate
+
 macOS / Linux:
 source venv/bin/activate
 
-Install dependencies:
+### Install dependencies:
 pip install -r requirements.txt
 
 ---
