@@ -21,7 +21,6 @@ This project is a multi-agent AI system that automatically analyzes and interpre
 - **Media Downloading & Processing:** yt-dlp
 - **Speech-to-Text / Transcription:** AssemblyAI
 - **Environment & Dependency Management:** pip, virtualenv
-- 
 ---
 
 ## System Architecture
