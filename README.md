@@ -31,3 +31,16 @@ Architecture and workflow diagrams are available in:
 ---
 
 ## Project Structure
+project-root/
+│── workflow/
+│ ├── downloads/ # Downloaded audio/video files
+│ ├── agents/ # Agent implementations
+│ └── tools/ # Download, Transcribe, Search tools
+│
+│── src/ # Core application logic
+│── requirements.txt # Python dependencies
+│── main.py # Application entry point
+│── README.md # Project documentation
+
+
+
