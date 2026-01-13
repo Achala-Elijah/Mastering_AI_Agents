@@ -19,7 +19,7 @@ This project is a multi-agent AI system that automatically analyzes and interpre
 - **AI / NLP Frameworks:** Langraph, Langchain, Groq
 - **Search & Context Retrieval:** TavilySearch
 - **Media Downloading & Processing:** yt-dlp
-- **Speech-to-Text / Transcription:** AssemblyAI (`import assemblyai as aai`)
+- **Speech-to-Text / Transcription:** AssemblyAI
 - **Environment & Dependency Management:** pip, virtualenv
 - 
 ---
