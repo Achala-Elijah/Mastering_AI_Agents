@@ -1,99 +1,33 @@
-# 📊 Project Name
+# 🎥 Multi-Agent AI System for Multimedia Content Analysis
 
 ## Overview
-This project is a data analytics application designed to analyze datasets, extract meaningful insights, and support data-driven decision-making.
+This project is a multi-agent AI system that automatically analyzes video and audio content. It uses specialized AI agents to transcribe media, summarize content, explain complex concepts, perform contextual web searches, and generate reflective questions for learning.
+
+The system improves clarity, accuracy, and user engagement by distributing tasks across multiple agents instead of relying on a single monolithic model.
 
 ---
 
-## 🛠️ Requirements
-Make sure you have the following installed:
-
-- Python 3.9 or higher  
-- Git  
-- pip (Python package manager)
-
----
-
-## 📂 Project Structure
-project-name/
-│── data/ # Dataset files
-│── src/ # Source code
-│── outputs/ # Generated results and visualizations
-│── requirements.txt # Project dependencies
-│── main.py # Entry point
-│── README.md # Documentation
-
+## Features
+- Audio and video transcription  
+- Content summarization  
+- Concept explanation with web context  
+- Reflective question generation  
+- Modular multi-agent architecture  
 
 ---
 
-## ⚙️ Installation
+## System Architecture
+The system is composed of multiple specialized agents coordinated by a central planner:
 
-### 1. Clone the Repository
-git clone https://github.com/your-username/project-name.git
+- **Planner Agent** – Orchestrates tasks, downloads media, and triggers transcription  
+- **Summarizer Agent** – Produces concise summaries  
+- **Explainer Agent** – Explains complex concepts and retrieves external context  
+- **Question Generator Agent** – Generates comprehension and reflection questions  
 
-cd project-name
-
-
----
-
-### 2. Create a Virtual Environment (Recommended)
-python -m venv venv
-
-Activate the virtual environment:
-
-**Windows**
-venv\Scripts\activate
-
-**macOS / Linux**
-source venv/bin/activate
+Architecture and workflow diagrams are available in:
+- `Untitled Diagram.drawio.png`
+- `workflow.png`
 
 ---
 
-### 3. Install Dependencies
-pip install -r requirements.txt
-
-
----
-
-## ▶️ Usage
-
-1. Place your dataset in the `data/` folder  
-2. Run the project: python main.py
-
-3. View the generated results in the `outputs/` folder  
-
----
-
-## 📈 Features
-- Data cleaning and preprocessing  
-- Exploratory data analysis (EDA)  
-- Data visualization  
-- Insight generation  
-
----
-
-## ❗ Notes
-- Ensure input data follows the expected format  
-- Modify `main.py` to customize the analysis  
-
----
-
-## 🚀 Future Improvements
-- Add interactive dashboards  
-- Support more data formats  
-- Improve visualizations and insights  
-
----
-
-## 👤 Author
-**Elijah Achala**  
-Aspiring Data Analyst
-
-
-
-
-
-
-
-
-
+## Project Structure
