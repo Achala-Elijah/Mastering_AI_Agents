@@ -34,10 +34,6 @@ Agents:
 
 ![Workflow Diagram](workflow.png)
 
-Architecture and workflow diagrams:
-- Untitled Diagram.drawio.png
-- workflow.png
-
 ---
 
 ## Project Structure
