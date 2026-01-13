@@ -14,6 +14,16 @@ This project is a multi-agent AI system that automatically analyzes and interpre
 
 ---
 
+## Tech Stack
+- **Programming Language:** Python 3.9+
+- **AI / NLP Frameworks:** Langraph, Langchain, Groq
+- **Search & Context Retrieval:** TavilySearch
+- **Media Downloading & Processing:** yt-dlp
+- **Speech-to-Text / Transcription:** AssemblyAI (`import assemblyai as aai`)
+- **Environment & Dependency Management:** pip, virtualenv
+- 
+---
+
 ## System Architecture
 The system follows a modular multi-agent design coordinated by a central planner agent.
 
