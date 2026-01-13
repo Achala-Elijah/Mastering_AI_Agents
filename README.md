@@ -59,10 +59,10 @@ cd multi-agent-multimedia-ai
 python -m venv venv
 
 ### Activate the virtual environment:
-Windows:
+#### Windows:
 venv\Scripts\activate
 
-macOS / Linux:
+#### macOS / Linux:
 source venv/bin/activate
 
 ### Install dependencies:
