@@ -41,19 +41,27 @@ project-root/
 
 │── workflow/
 
-│   ├── downloads/        # Downloaded audio and video files
+│   ├── downloads/     # Downloaded audio and video files
 
-│   ├── agents/           # Agent implementations
+│   ├── agent.py       # Agent implementations
 
-│   └── tools/            # Download, Transcribe, and Search tools
+│   ├── constants.py   # Custom constants
 
-│── src/                  # Core application logic
+│   ├── graph.py       # Graph implementation
 
-│── requirements.txt      # Python dependencies
+│   ├── nodes.py       # Nodes implementation
 
-│── main.py               # Application entry point
+│   ├── prompts.py     # Prompts constructions
 
-│── README.md             # Project documentation
+│   ├── state.py       # State definition
+
+│   ├── tools.py       # Download, Transcribe, and Search tools
+
+│── requirements.txt   # Python dependencies
+
+│── main.py            # Application entry point
+
+│── README.md          # Project documentation
 
 ---
 
@@ -103,10 +111,7 @@ What is the video ./workflow/downloads/video.mp4 about?
 ---
 
 ## Example Output
-- Transcribed content
-- High-level summary
-- Explanation of key themes
-- Reflective learning questions
+The file ./workflow/downloads/video.mp4 appears to be a video file containing a Christian rap song. The lyrics express the artist's faith and trust in Jesus Christ, and how their life has changed for the better since they started following God. The song also touches on themes of sin, redemption, and the importance of staying on the right path. The artist repeats the phrase "I keep my eyes on Jesus Christ" throughout the song, emphasizing their focus on their faith. The overall tone of the song is one of devotion, gratitude, and encouragement to others to follow God's path.
 
 ---
 
