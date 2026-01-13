@@ -32,6 +32,8 @@ Agents:
 - Explainer Agent – Explains complex concepts and retrieves additional context from the web
 - Question Generation Agent – Produces reflective and comprehension-driven questions
 
+![Workflow Diagram](workflow.png)
+
 Architecture and workflow diagrams:
 - Untitled Diagram.drawio.png
 - workflow.png
