@@ -1,4 +1,4 @@
-# 🎥 Multi-Agent AI System for Multimedia Content Analysis
+# 🎥 Multimedia Comprehension Agent
 
 ## Overview
 This project is a multi-agent AI system that automatically analyzes and interprets video and audio content. The system decomposes complex processing tasks into specialized agents responsible for transcription, summarization, explanation of complex concepts, contextual web search, and reflective question generation. By distributing responsibilities across specialized agents, the system improves clarity, accuracy, and user engagement compared to monolithic AI approaches.
