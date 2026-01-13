@@ -33,6 +33,7 @@ Architecture and workflow diagrams:
 project-root/
 
 │── workflow/
+
 │   ├── downloads/        # Downloaded audio and video files
 
 │   ├── agents/           # Agent implementations
@@ -103,7 +104,7 @@ What is the video ./workflow/downloads/video.mp4 about?
 ---
 
 ## Notes
-- The system understands both text, audio and video.
+- The system understands text, audio and video.
 - Supported formats include .mp4, .mp3, and .wav
 - Internet access is required for contextual web search
 - Each agent can be extended or replaced independently
