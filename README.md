@@ -52,8 +52,8 @@ project-root/
 
 ## Installation
 ### Clone the repository:
-git clone https://github.com/your-username/multi-agent-multimedia-ai.git
-cd multi-agent-multimedia-ai
+git clone https://github.com/Achala-Elijah/Mastering_AI_Agents.git
+cd Mastering_AI_Agents
 
 ### Create a virtual environment (recommended):
 python -m venv venv
@@ -95,6 +95,7 @@ What is the video ./workflow/downloads/video.mp4 about?
 ---
 
 ## Notes
+- The system understands both text, audio and video.
 - Supported formats include .mp4, .mp3, and .wav
 - Internet access is required for contextual web search
 - Each agent can be extended or replaced independently
@@ -102,7 +103,7 @@ What is the video ./workflow/downloads/video.mp4 about?
 ---
 
 ## License
-MIT License
+No License
 
 ---
 
