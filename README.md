@@ -71,10 +71,10 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-Run the application:
+### Run the application:
 python main.py
 
-Analyze a video or audio file:
+### Analyze a video or audio file:
 1. Place the media file inside the workflow/downloads/ directory
 2. Provide the file path as input when prompted
 3. The system will transcribe the content, summarize key ideas, explain complex concepts, and generate reflective questions (optional)
@@ -101,14 +101,6 @@ What is the video ./workflow/downloads/video.mp4 about?
 
 ---
 
-## Future Improvements
-- Web-based user interface
-- Real-time streaming analysis
-- Multilingual transcription support
-- Improved agent collaboration and memory
-
----
-
 ## License
 MIT License
 
@@ -116,4 +108,4 @@ MIT License
 
 ## Author
 Elijah Achala  
-Aspiring Data Analyst & AI Engineer
+AI Engineer
